@@ -103,7 +103,7 @@ nav a {
 select {
 	margin: 0 50% 1% 5%;
 	width: 30%;
-	font-size: 1.1rem;
+	font-size: 1.9vw;
 	padding: 0;
 }
 
@@ -125,7 +125,7 @@ input {
 footer {
 	background-color: lightblue;
 	margin-top: 2vw;
-	font-size: .6rem;
+	font-size: 1.4vw;
 	padding: 3vw 0;
 }
 
