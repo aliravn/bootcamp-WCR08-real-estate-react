@@ -1,0 +1,32 @@
+header h1, header p {
+	margin: 0;
+	color: #ffffff;
+}
+
+#header-text-container {
+	width: 95%;
+	font-family: 'Indie Flower', cursive;
+	position: absolute;
+	top: 13vw;
+	left: 5%;
+}
+
+#header-image {
+	width: 100%;
+}
+
+.header-text {
+	font-size: 6vw;
+	position: absolute;
+	left: 15vw;
+	text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+}
+
+.header-subtext {
+	font-size: 2vw;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+	position: absolute;
+	top: 6vw;
+	left: 35vw;
+}
