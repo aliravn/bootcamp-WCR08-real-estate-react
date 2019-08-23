@@ -9,8 +9,8 @@ class Header extends Component {
 			<header>
 				<img id="header-image" src={require("../img/header_house.jpg")} alt="castle_image" />
 				<div id="header-text-container">
-					<h1 class="header-text">Find Your Dream Home</h1>
-					<p class="header-subtext">Apartments - Houses - Villas and much more...</p>
+					<h1 className="header-text">Find Your Dream Home</h1>
+					<p className="header-subtext">Apartments - Houses - Villas and much more...</p>
 				</div>
 			</header>
 		);

@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 import Navigation from './components/Navigation';
-import Header from './components/Header';
+import HomePage from './components/HomePage';
+import Footer from './components/Footer';
+import Article from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -10,9 +12,17 @@ class App extends Component {
       <div className="App">
       <Router>
         <Navigation />
-        <Header />
-
-
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/buy" exact component={HomePage} />
+          <Route path="/rent" exact component={HomePage} />
+          <Route path="/sell" exact component={HomePage} />
+          <Route path="/about" exact component={HomePage} />
+          <Route path="/contact" exact component={HomePage} />
+          <Route path="/login" exact component={HomePage} />
+          <Route component={HomePage} />
+        </Switch>
+        <Footer />
 
       </Router> 
       </div>
@@ -21,4 +31,3 @@ class App extends Component {
 }
 
 export default App;
-

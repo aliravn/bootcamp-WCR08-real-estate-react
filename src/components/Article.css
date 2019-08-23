@@ -1,0 +1,25 @@
+article {
+	position: relative;
+	width: 30%;
+	font-size: 1.3vw;
+	padding: .5vw;
+	margin-bottom: 2vw;
+	box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+}
+
+.article-image {
+	width: 100%;
+}
+
+.article-headline {
+	font-weight: bold;
+}
+
+.price-tag {
+	background-color: orange;
+	padding: .5vw;
+	border-radius: 3px;
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+}

@@ -64,6 +64,7 @@ nav {
 	text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
 }
 
+/* .nav-link in react */
 nav a {
 	text-decoration: none;
 	color: white;

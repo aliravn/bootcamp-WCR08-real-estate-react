@@ -9,9 +9,9 @@ class Navigation extends Component {
 		return (
 			<nav>
 				<NavLink to="/" exact activeClassName="active" className="nav-link nav-logo">CF-RealEstate</NavLink>
-				<NavLink to="/contact" exact activeClassName="active" className="nav-link">Buy</NavLink>
-				<NavLink to="/about" exact activeClassName="active" className="nav-link">Rent</NavLink>
-				<NavLink to="/contact" exact activeClassName="active" className="nav-link">Sell</NavLink>
+				<NavLink to="/buy" exact activeClassName="active" className="nav-link">Buy</NavLink>
+				<NavLink to="/rent" exact activeClassName="active" className="nav-link">Rent</NavLink>
+				<NavLink to="/sell" exact activeClassName="active" className="nav-link">Sell</NavLink>
 				<NavLink to="/about" exact activeClassName="active" className="nav-link">About</NavLink>
 				<NavLink to="/contact" exact activeClassName="active" className="nav-link">Contact</NavLink>
 				<NavLink to="/login" exact activeClassName="active" className="nav-link" id="login-link">Login</NavLink>

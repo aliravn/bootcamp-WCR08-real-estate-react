@@ -1,0 +1,15 @@
+#content-container {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin: 5vw 0;	
+}
+
+#article-container {
+	width: 80%;
+	margin: 2vw auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
