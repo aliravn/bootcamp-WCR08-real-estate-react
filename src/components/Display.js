@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Article from "./Article";
+import ButtonViewMore from "./ButtonViewMore"
 import './Display.css';
 
 class Display extends Component {
@@ -13,7 +14,7 @@ class Display extends Component {
 					<Article image={require("../img/flat2.jpg")} />
 					<Article image={require("../img/flat3.jpg")} />														
 				</div>
-				<button id="view-more-button">VIEW MORE LISTINGS</button>	
+				<ButtonViewMore />
 			</div>
 		);
 	} 
