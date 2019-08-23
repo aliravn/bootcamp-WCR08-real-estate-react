@@ -1,0 +1,25 @@
+#contact-container {
+	width: 100%;
+	background: lightpink;
+}
+
+#contact-nav-container {
+	margin-top: -.5vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-nav-link {
+	text-decoration: none;
+	text-align: center;
+	align-self: center;
+	padding: 2vw;
+	width: 20%;
+	border: 2px solid grey;
+	background: #000000;
+	color: #ffffff;
+}
+
+#contact-nav-container > active {
+	border-bottom: none;
+}
