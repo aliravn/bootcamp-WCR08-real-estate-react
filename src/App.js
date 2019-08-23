@@ -5,7 +5,6 @@ import HomePage from './components/HomePage';
 import Footer from './components/Footer';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
-
 import './App.css';
 
 class App extends Component {
@@ -25,7 +24,6 @@ class App extends Component {
           <Route component={HomePage} />
         </Switch>
         <Footer />
-
       </Router> 
       </div>
     );

@@ -19,11 +19,11 @@ class Footer extends Component {
 						<NavLink to="/" exact activeClassName="active" className="footer-nav-link">-</NavLink>				
 					</div>
 					<div className="footer-nav-box">
-						<NavLink to="/contact/ny" exact activeClassName="active" className="footer-nav-link">New York</NavLink>
-						<NavLink to="/contact/la" exact activeClassName="active" className="footer-nav-link">Los Angeles</NavLink>
-						<NavLink to="/contact/ch" exact activeClassName="active" className="footer-nav-link">Chicago</NavLink>
-						<NavLink to="/contact/mi" exact activeClassName="active" className="footer-nav-link">Miami</NavLink>
-						<NavLink to="/contact/no" exact activeClassName="active" className="footer-nav-link">New Orleans</NavLink>
+						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">New York</NavLink>
+						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Los Angeles</NavLink>
+						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Chicago</NavLink>
+						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Miami</NavLink>
+						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">New Orleans</NavLink>
 					</div>
 					<div className="footer-nav-box">
 						<div className="footer-text">
