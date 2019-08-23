@@ -11,15 +11,7 @@
 
 
 	<body>
-		<header>
-			<img id="header-image" src="src/img/header_house.jpg" alt="castle_image">
-			<div id="header-text-container">
-				<h1 class="header-text">Find Your Dream Home</h1>
-				<p class="header-subtext">Apartments - Houses - Villas and much more...</p>
-			</div>
-		</header>
-
-		<nav>
+		<nav> <!--NavigationComponent -->
 			<h2 class="nav-logo">CF-RealEstate</h2>
 			<a href="3">Buy</a>
 			<a href="3">Rent</a>
@@ -31,6 +23,33 @@
 
 		<main>
 			<!-- SWITCH FOR ROUTING -->
+			<div id="HomeComponent"> <!-- HomeComponent -->
+
+				<header> <!-- HeaderComponent -->
+					<img id="header-image" src="src/img/header_house.jpg" alt="castle_image">
+					<div id="header-text-container">
+						<h1 class="header-text">Find Your Dream Home</h1>
+						<p class="header-subtext">Apartments - Houses - Villas and much more...</p>
+					</div>
+				</header>
+
+				<div id="searchbar"> <!-- SearchbarComponent -->
+					<p class="searchbar-header">What are you looking for?</p>
+					<select>
+						<option value="flat">Flat</option>
+						<option value="house">House</option>
+						<option value="villa">Villa</option>
+						<option value="castle">Castle</option>
+					</select>
+					<input type="text" placeholder="City">
+					<input type="text" placeholder="District">
+					<input type="text" placeholder="Price up to">
+					<input type="text" placeholder="Sq.m.">
+					<button id="search-button">Search</button>
+				</div>
+
+			</div>
+
 		</main>
 
 		<footer>
