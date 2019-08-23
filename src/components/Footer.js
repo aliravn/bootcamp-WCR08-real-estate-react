@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 import FooterNavBox from "./FooterNavBox";
 import './Footer.css';
 
@@ -11,18 +12,18 @@ class Footer extends Component {
 				<div id="footer-content">
 					<FooterNavBox />
 					<div className="footer-nav-box">
-						<a href="">Apartments</a>
-						<a href="#">Houses</a>
-						<a href="#">Villas</a>
-						<a href="#">Castles</a>
-						<a href="#">-</a>					
+						<NavLink to="/apartments" exact activeClassName="active" className="footer-nav-link">Apartments</NavLink>
+						<NavLink to="/houses" exact activeClassName="active" className="footer-nav-link">Houses</NavLink>
+						<NavLink to="/villas" exact activeClassName="active" className="footer-nav-link">Villas</NavLink>
+						<NavLink to="/castles" exact activeClassName="active" className="footer-nav-link">Castles</NavLink>
+						<NavLink to="/" exact activeClassName="active" className="footer-nav-link">-</NavLink>				
 					</div>
 					<div className="footer-nav-box">
-						<a href="#">New York</a>
-						<a href="#">Los Angeles</a>
-						<a href="#">Chicago</a>
-						<a href="#">Miami</a>
-						<a href="#">New Orleans</a>	
+						<NavLink to="/ny" exact activeClassName="active" className="footer-nav-link">New York</NavLink>
+						<NavLink to="/la" exact activeClassName="active" className="footer-nav-link">Los Angeles</NavLink>
+						<NavLink to="/ch" exact activeClassName="active" className="footer-nav-link">Chicago</NavLink>
+						<NavLink to="/mi" exact activeClassName="active" className="footer-nav-link">Miami</NavLink>
+						<NavLink to="/no" exact activeClassName="active" className="footer-nav-link">New Orleans</NavLink>
 					</div>
 					<div className="footer-nav-box">
 						<div className="footer-text">
