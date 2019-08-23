@@ -9,7 +9,7 @@ class HomePage extends Component {
 		
 		return (
 			<div>
-				<Header />
+				<Header image={require("../img/header_house.jpg")} />
 				<Searchbar />
 				<Display />
 			</div>

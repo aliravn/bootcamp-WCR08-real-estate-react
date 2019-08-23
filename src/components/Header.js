@@ -3,11 +3,11 @@ import './Header.css';
 
 class Header extends Component {
 
-	render() {
+	render(props) {
 		
 		return (
 			<header>
-				<img id="header-image" src={require("../img/header_house.jpg")} alt="castle_image" />
+				<img id="header-image" src={this.props.image} alt="castle_image" />
 				<div id="header-text-container">
 					<h1 className="header-text">Find Your Dream Home</h1>
 					<p className="header-subtext">Apartments - Houses - Villas and much more...</p>
