@@ -1,0 +1,35 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#header-image {
+	width: 100%;
+}
+
+header h1, header p {
+	margin: 0;
+	color: #ffffff;
+}
+
+#header-text-container {
+	width: 90%;
+	position: absolute;
+	top: 10vw;
+	left: 5%;
+}
+
+.header-text {
+	font-family: 'Indie Flower', cursive;
+	font-size: 6vw;
+	position: absolute;
+	left: 15vw;
+}
+
+.header-subtext {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2vw;
+	position: absolute;
+	top: 6vw;
+	left: 35vw;
+}
