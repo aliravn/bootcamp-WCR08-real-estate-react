@@ -125,14 +125,39 @@ input {
 footer {
 	background-color: lightblue;
 	margin-top: 2vw;
-
+	font-size: .6rem;
+	padding: 3vw 0;
 }
 
+#footer-content {
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+	border-bottom: 1px solid grey;
+	padding-bottom: 2vw;
+}
 
+.footer-nav-box {
+	width: 25%;
+	height: 10vw;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.footer-text {
+	text-align: justify;
+	margin-bottom: 1vw;
+}
+
+.footer-nav-box > a {
+	text-decoration: none;
+	color: #000000;
+}
 
 footer > p {
-	margin: 0;
-	width: 70%;
+	margin: 2vw auto 0;
+	width: 80%;
 	text-align: center;
-	border-top: 1px solid grey;
+
 }
