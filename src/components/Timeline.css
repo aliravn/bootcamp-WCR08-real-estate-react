@@ -1,0 +1,28 @@
+#timeline-container {
+	width: 90%;
+	margin: 0 auto;
+	margin-right: 4vw;
+	display: flex;
+	font-size: 1.4vw;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#timeline-container >  span {
+	width: 15%;
+	margin-right: 2vw;
+	margin-bottom: 1vw;
+}
+
+.circle {
+	width: 5vw;
+	height: 5vw;
+	background: green;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1vw;
+	margin-bottom: 1vw
+}
