@@ -12,7 +12,6 @@ const FooterNavBox = () => {
 			<NavLink to="/policy" exact activeClassName="active" className="footer-nav-link">Policy</NavLink>
 			<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Contact</NavLink>
 		</div>
-
 	);
 }
 

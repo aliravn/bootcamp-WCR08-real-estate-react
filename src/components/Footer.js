@@ -11,7 +11,7 @@ class Footer extends Component {
 				<div id="footer-content">
 					<FooterNavBox />
 					<div className="footer-nav-box">
-						<a href="#">Apartments</a>
+						<a href="">Apartments</a>
 						<a href="#">Houses</a>
 						<a href="#">Villas</a>
 						<a href="#">Castles</a>
