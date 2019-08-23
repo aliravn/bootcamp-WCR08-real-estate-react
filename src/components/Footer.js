@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import {BrowserRouter as Route, Switch, NavLink } from 'react-router-dom';
 import FooterNavBox from "./FooterNavBox";
 import './Footer.css';
 
@@ -19,11 +19,11 @@ class Footer extends Component {
 						<NavLink to="/" exact activeClassName="active" className="footer-nav-link">-</NavLink>				
 					</div>
 					<div className="footer-nav-box">
-						<NavLink to="/ny" exact activeClassName="active" className="footer-nav-link">New York</NavLink>
-						<NavLink to="/la" exact activeClassName="active" className="footer-nav-link">Los Angeles</NavLink>
-						<NavLink to="/ch" exact activeClassName="active" className="footer-nav-link">Chicago</NavLink>
-						<NavLink to="/mi" exact activeClassName="active" className="footer-nav-link">Miami</NavLink>
-						<NavLink to="/no" exact activeClassName="active" className="footer-nav-link">New Orleans</NavLink>
+						<NavLink to="/contact/ny" exact activeClassName="active" className="footer-nav-link">New York</NavLink>
+						<NavLink to="/contact/la" exact activeClassName="active" className="footer-nav-link">Los Angeles</NavLink>
+						<NavLink to="/contact/ch" exact activeClassName="active" className="footer-nav-link">Chicago</NavLink>
+						<NavLink to="/contact/mi" exact activeClassName="active" className="footer-nav-link">Miami</NavLink>
+						<NavLink to="/contact/no" exact activeClassName="active" className="footer-nav-link">New Orleans</NavLink>
 					</div>
 					<div className="footer-nav-box">
 						<div className="footer-text">
