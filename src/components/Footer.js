@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import FooterNavBox from "./FooterNavBox";
 import './Footer.css';
 
 class Footer extends Component {
@@ -8,13 +9,7 @@ class Footer extends Component {
 		return (
 			<footer>
 				<div id="footer-content">
-					<div className="footer-nav-box">
-						<a href="#">About</a>
-						<a href="#">Support</a>
-						<a href="#">Term</a>
-						<a href="#">Policy</a>
-						<a href="#">Contact</a>
-					</div>
+					<FooterNavBox />
 					<div className="footer-nav-box">
 						<a href="#">Apartments</a>
 						<a href="#">Houses</a>

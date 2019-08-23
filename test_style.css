@@ -171,6 +171,7 @@ article {
 	padding: 1vw 2vw;
 	border-radius: 3vw;
 	border: .5vw solid lightblue;
+	cursor: pointer;
 }
 
 /* FOOTER STYLE */

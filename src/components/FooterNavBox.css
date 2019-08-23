@@ -1,0 +1,12 @@
+.footer-nav-box {
+	width: 25%;
+	height: 10vw;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.footer-nav-link {
+	text-decoration: none;
+	color: #000000;
+}
