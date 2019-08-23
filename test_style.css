@@ -3,9 +3,9 @@ body {
 	margin: 0;
 }
 
-html {
+/* html {
 	overflow-x: hidden;
-}
+} */
 /* HEADER STYLING */
 
 header h1, header p {
@@ -14,7 +14,7 @@ header h1, header p {
 }
 
 #header-text-container {
-	width: 100%;
+	width: 95%;
 	font-family: 'Indie Flower', cursive;
 	position: absolute;
 	top: 13vw;
@@ -75,6 +75,8 @@ nav a {
 
 #login-link {
 	margin-right: 5%;
+	padding: 0 .5vw;
+	border: 2px solid white;
 }
 
 /* SEARCHBAR STYLE */
