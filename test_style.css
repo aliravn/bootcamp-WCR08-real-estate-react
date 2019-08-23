@@ -149,6 +149,10 @@ article {
 	width: 100%;
 }
 
+.article-headline {
+	font-weight: bold;
+}
+
 .price-tag {
 	background-color: orange;
 	padding: .5vw;
