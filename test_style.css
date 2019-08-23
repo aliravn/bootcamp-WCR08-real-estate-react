@@ -2,6 +2,10 @@ body {
 	width: 100%;
 	margin: 0;
 }
+
+html {
+	overflow-x: hidden;
+}
 /* HEADER STYLING */
 
 header h1, header p {
@@ -99,7 +103,7 @@ nav a {
 select {
 	margin: 0 50% 1% 5%;
 	width: 30%;
-	height: 4vw;
+	font-size: 1.1rem;
 	padding: 0;
 }
 
@@ -120,9 +124,6 @@ input {
 /* FOOTER STYLE */
 footer {
 	background-color: lightblue;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
 	margin-top: 2vw;
 
 }
