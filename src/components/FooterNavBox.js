@@ -1,16 +1,18 @@
-import React, {Component} from "react";
-import {BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import NavigationLink from "./NavigationLink"
 import "./FooterNavBox.css";
 
 const FooterNavBox = () => {
-
 	return (
 		<div className="footer-nav-box">
-			<NavLink to="/about" exact activeClassName="active" className="footer-nav-link">About</NavLink>
-			<NavLink to="/support" exact activeClassName="active" className="footer-nav-link">Support</NavLink>
-			<NavLink to="/term" exact activeClassName="active" className="footer-nav-link">Term</NavLink>
-			<NavLink to="/policy" exact activeClassName="active" className="footer-nav-link">Policy</NavLink>
-			<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Contact</NavLink>
+			<Router>
+				<NavigationLink path="/about" title="About" className="footer-nav-link"/>
+				<NavigationLink path="/support" title="Support" className="footer-nav-link"/>
+				<NavigationLink path="/term" title="Term" className="footer-nav-link"/>
+				<NavigationLink path="/policy" title="Policy" className="footer-nav-link"/>
+				<NavigationLink path="/contact" title="Contact" className="footer-nav-link"/>
+			</Router>
 		</div>
 	);
 }

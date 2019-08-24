@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter as Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 import FooterNavBox from "./FooterNavBox";
+import NavigationLink from "./NavigationLink"
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaSkype } from 'react-icons/fa';
@@ -16,18 +17,18 @@ class Footer extends Component {
 				<div id="footer-content">
 					<FooterNavBox />
 					<div className="footer-nav-box">
-						<NavLink to="/apartments" exact activeClassName="active" className="footer-nav-link">Apartments</NavLink>
-						<NavLink to="/houses" exact activeClassName="active" className="footer-nav-link">Houses</NavLink>
-						<NavLink to="/villas" exact activeClassName="active" className="footer-nav-link">Villas</NavLink>
-						<NavLink to="/castles" exact activeClassName="active" className="footer-nav-link">Castles</NavLink>
-						<NavLink to="/" exact activeClassName="active" className="footer-nav-link">-</NavLink>				
+						<NavigationLink path="/apartments" title="Apartments" className="footer-nav-link"/>
+						<NavigationLink path="/houses" title="Houses" className="footer-nav-link"/>
+						<NavigationLink path="/villas" title="Villas" className="footer-nav-link"/>
+						<NavigationLink path="/castles" title="Castles" className="footer-nav-link"/>
+						<NavigationLink path="/" title="-" className="footer-nav-link"/>	
 					</div>
 					<div className="footer-nav-box">
-						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">New York</NavLink>
-						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Los Angeles</NavLink>
-						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Chicago</NavLink>
-						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">Miami</NavLink>
-						<NavLink to="/contact" exact activeClassName="active" className="footer-nav-link">New Orleans</NavLink>
+						<NavigationLink path="/contact" title="New York" className="footer-nav-link"/>
+						<NavigationLink path="/contact" title="Los Angeles" className="footer-nav-link"/>
+						<NavigationLink path="/contact" title="Chicago" className="footer-nav-link"/>
+						<NavigationLink path="/contact" title="Miami" className="footer-nav-link"/>
+						<NavigationLink path="contact" title="New Orleans" className="footer-nav-link"/>	
 					</div>
 					<div className="footer-nav-box">
 						<div className="footer-text">
