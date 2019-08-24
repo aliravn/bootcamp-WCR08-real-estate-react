@@ -1,6 +1,10 @@
-import React, {Component} from "react";
-import {BrowserRouter as Route, Switch, NavLink } from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter as Switch, NavLink } from 'react-router-dom';
 import FooterNavBox from "./FooterNavBox";
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaSkype } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import './Footer.css';
 
 class Footer extends Component {
@@ -29,8 +33,11 @@ class Footer extends Component {
 						<div className="footer-text">
 							Lorem ipsum dolor sit amet, consecte tur adipi scing elit, sed do eius mod tempor incididunt.
 						</div>
-						<div>
-							Fb Tw Sk Go
+						<div className="social-icon-container">
+							<FaFacebookSquare className="social-icon"/> 
+							<FaTwitter className="social-icon"/>
+							<FaSkype className="social-icon"/>
+							<FaLinkedin className="social-icon"/>
 						</div>
 					</div>
 				</div>	

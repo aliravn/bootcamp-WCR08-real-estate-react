@@ -32,3 +32,14 @@ footer > p {
 	text-align: center;
 
 }
+
+.social-icon-container {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.7vw;
+}
+
+.social-icon {
+	cursor: pointer;
+}
