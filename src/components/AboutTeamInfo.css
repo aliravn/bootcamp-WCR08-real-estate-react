@@ -1,0 +1,26 @@
+.team-pic-container {
+	width: 90%;
+	margin: 0 auto 2vw;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.team-pic-container h2 {
+	width: 100%;
+	margin-left: 5.5%;
+}
+
+.team-foto {
+	width: 15%;
+}
+
+.team-foto > img {
+	width: 94%;
+	height: 15vw;
+	text-align: center;
+	border: 3px solid grey;
+	border-radius: 5vw;
+	margin: 1vw auto
+}
