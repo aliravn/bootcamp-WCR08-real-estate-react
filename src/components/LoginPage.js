@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Header from './Header';
 import LoginForm from "./LoginForm";
+import LoginCreateAccount from "./LoginCreateAccount"
 import "./LoginPage.css";
 
 class LoginPage extends Component {
@@ -10,9 +11,8 @@ class LoginPage extends Component {
 		return (
 			<div id="login-page-container">
 				<Header image={require("../img/header_key.jpg")} />
-				<div className="login-page-content">
-					<LoginForm />
-				</div>
+				<LoginForm />
+				<LoginCreateAccount />
 			</div>
 		);
 	} 
