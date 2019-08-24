@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Header from './Header';
+import "./ExtraPage5.css";
 
 class BuyPage extends Component {
 
@@ -8,7 +9,8 @@ class BuyPage extends Component {
 		return (
 			<div id="buy-page-container">
 				<Header image={require("../img/header_villa.jpg")} />
-
+				<div class="buy-page-content">
+				</div>
 			</div>
 		);
 	} 

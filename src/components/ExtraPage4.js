@@ -1,17 +1,19 @@
 import React, {Component} from "react";
 import Header from './Header';
+import "./ExtraPage4.css"
 
-class SellPge extends Component {
+class SellPage extends Component {
 
 	render() {
 		
 		return (
 			<div id="sell-page-container">
 				<Header image={require("../img/header_castle.png")} />
-
+				<div class="sell-page-content">
+				</div>
 			</div>
 		);
 	} 
 }
 
-export default SellPge;
+export default SellPage;
