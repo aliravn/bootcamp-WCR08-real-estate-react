@@ -5,7 +5,7 @@ import HomePage from './components/HomePage';
 import Footer from './components/Footer';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
-import LoginPage from './components/ExtraPage3';
+import LoginPage from './components/LoginPage';
 import SellPage from './components/ExtraPage4';
 import BuyPage from './components/ExtraPage5';
 import './App.css';
