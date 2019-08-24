@@ -5,6 +5,9 @@ import HomePage from './components/HomePage';
 import Footer from './components/Footer';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
+import LoginPage from './components/ExtraPage3';
+import SellPage from './components/ExtraPage4';
+import BuyPage from './components/ExtraPage5';
 import './App.css';
 
 class App extends Component {
@@ -15,12 +18,12 @@ class App extends Component {
         <Navigation />
         <Switch>
           <Route path="/" exact component={HomePage} />
-          <Route path="/buy" exact component={HomePage} />
+          <Route path="/buy" exact component={BuyPage} />
           <Route path="/rent" exact component={HomePage} />
-          <Route path="/sell" exact component={HomePage} />
+          <Route path="/sell" exact component={SellPage} />
           <Route path="/about" exact component={AboutPage} />
           <Route path="/contact" exact component={ContactPage} />
-          <Route path="/login" exact component={HomePage} />
+          <Route path="/login" exact component={LoginPage} />
           <Route component={HomePage} />
         </Switch>
         <Footer />

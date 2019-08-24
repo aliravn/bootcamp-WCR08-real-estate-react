@@ -11,7 +11,7 @@ class ContactPage extends Component {
 	render() {
 		return (
 			<div id="contact-container">
-				<Header image={require("../img/header_villa.jpg")} />
+				<Header image={require("../img/header_office.jpg")} />
 				<Router>
 				<ContactNavigation />
 				<Switch>
