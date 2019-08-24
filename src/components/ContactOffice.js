@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './ContactPage.css';
+import './ContactOffice.css';
 
 class ContactOffice extends Component {
 
