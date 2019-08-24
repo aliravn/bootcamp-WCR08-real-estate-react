@@ -8,6 +8,14 @@
 	justify-content: space-between;
 }
 
+.contact-introduction-container {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
 .contact-nav-link {
 	text-decoration: none;
 	text-align: center;

@@ -7,9 +7,9 @@ class ContactOffice extends Component {
 		return (
 			<div className="contact-office-container">
 				<h2>New York (Main Office)</h2>
-				<p>Address Line1</p>
-				<p>Address Line2</p>
-				<p>Phone Number</p>
+				<p>Address placeholder Line1</p>
+				<p>Address placeholder Line2</p>
+				<p>Phone Number placeholder</p>
 				<p>Email@example.com</p>
 			</div>
 		);
