@@ -44,3 +44,35 @@
 	margin-top: 9vw;
 	transform: translateY(-50%);
 }
+
+.buyer-guide-container {
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 3vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.buyer-guide-container > h2, .buyer-guide-container > h3 {
+	width: 100%;
+	margin: 0;
+}
+
+.buyer-guide-container > h2 {
+	font-size: 3vw;
+}
+
+.buyer-guide-container > h3 {
+	margin-top: .5vw;
+	font-size: 2vw;
+}
+
+.buyer-guide-container span {
+	font-weight: bold;
+	margin-right: 1vw;
+}
+
+.buyer-guide-container p {
+	text-align: justify;
+}

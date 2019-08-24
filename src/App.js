@@ -7,7 +7,7 @@ import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import LoginPage from './components/LoginPage';
 import SellPage from './components/ExtraPage4';
-import BuyPage from './components/ExtraPage5';
+import BuyPage from './components/BuyPage';
 import './App.css';
 
 class App extends Component {
