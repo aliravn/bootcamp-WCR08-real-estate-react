@@ -11,11 +11,12 @@
 
 #login-container {
 	width: 40%;
-	height: 12vw;
-	padding: 0 3vw;
+	height: 15vw;
+	padding: 3vw;
 	background-color: white;
 	display: flex;
 	flex-wrap: wrap;
+	font-size: 2vw;
 }
 
 form {
@@ -31,9 +32,15 @@ form > span {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 2vw;
 }
 
 input {
 	width: 60%;
+	height: 10px;
 	margin: 0;
+}
+
+#login-container button {
+	width: 100%
 }
