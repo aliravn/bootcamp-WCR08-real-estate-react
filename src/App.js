@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import LoginPage from './components/LoginPage';
-import SellPage from './components/ExtraPage4';
+import SellPage from './components/SellPage';
 import BuyPage from './components/BuyPage';
 import './App.css';
 
@@ -19,7 +19,6 @@ class App extends Component {
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/buy" exact component={BuyPage} />
-          <Route path="/rent" exact component={HomePage} />
           <Route path="/sell" exact component={SellPage} />
           <Route path="/about" exact component={AboutPage} />
           <Route path="/contact" exact component={ContactPage} />
