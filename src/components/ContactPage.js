@@ -4,10 +4,7 @@ import ContactNavigation from "./ContactNavigation";
 import ContactOffice from "./ContactOffice";
 import ContactIntroduction from "./ContactIntroduction"
 import NewsletterSubscription from "./NewsletterSubscription"
-
 import Header from "./Header";
-
-import './ContactPage.css';
 
 class ContactPage extends Component {
 	render() {
