@@ -14,7 +14,17 @@
 	text-align: center;
 }
 
+#newsletter-container {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5vw;
+	font-size: 1.4vw;
+	text-align: center;
+}
 
+#newsletter-container > input {
+	margin-top: 1vw;
+}
 
 .contact-nav-link {
 	text-decoration: none;

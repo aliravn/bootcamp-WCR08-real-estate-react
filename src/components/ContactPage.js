@@ -4,6 +4,8 @@ import ContactNavigation from "./ContactNavigation";
 import AboutPage from "./AboutPage";
 import ContactOffice from "./ContactOffice";
 import ContactIntroduction from "./ContactIntroduction"
+import NewsletterSubscription from "./NewsletterSubscription"
+
 import Header from "./Header";
 
 import './ContactPage.css';
@@ -24,6 +26,7 @@ class ContactPage extends Component {
 					<Route path="/contact/no" exact component={ContactOffice} />
 					<Route component={ContactOffice} />
 				</Switch>
+				<NewsletterSubscription />
 				</Router>
 
 			</div>
