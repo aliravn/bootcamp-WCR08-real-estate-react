@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Map from "./Map";
-import './ContactPage.css';
+import './ContactIntroduction.css';
 
 class ContactIntroduction extends Component {
 
