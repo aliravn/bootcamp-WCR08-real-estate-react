@@ -37,3 +37,8 @@ input {
 .login-container button {
 	width: 100%
 }
+
+#login-page-container h3 {
+	color: red;
+	text-align: center;
+}

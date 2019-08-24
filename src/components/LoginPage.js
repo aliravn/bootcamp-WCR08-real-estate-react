@@ -13,6 +13,9 @@ class LoginPage extends Component {
 				<Header image={require("../img/header_key.jpg")} />
 				<LoginForm />
 				<LoginCreateAccount />
+				<h3>I could have added more components here,</h3>
+				<h3>but by this page I've already run out of imagination</h3>
+				<h3>=^.^=</h3>
 			</div>
 		);
 	} 
