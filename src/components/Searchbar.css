@@ -19,14 +19,14 @@
 	text-align: right;
 }
 
-select {
+#searchbar select {
 	margin: 0 50% 1% 5%;
 	width: 30%;
 	font-size: 1.9vw;
 	padding: 0;
 }
 
-input {
+#searchbar input {
 	width: 40%;
 	margin-left: 5%;
 	margin-bottom: 1%;

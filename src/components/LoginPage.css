@@ -19,7 +19,7 @@
 	font-size: 2vw;
 }
 
-form {
+#login-container form {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
