@@ -9,7 +9,7 @@ class BuyPage extends Component {
 		return (
 			<div id="buy-page-container">
 				<Header image={require("../img/header_villa.jpg")} />
-				<div class="buy-page-content">
+				<div className="buy-page-content">
 				</div>
 			</div>
 		);

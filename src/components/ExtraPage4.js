@@ -9,7 +9,7 @@ class SellPage extends Component {
 		return (
 			<div id="sell-page-container">
 				<Header image={require("../img/header_castle.png")} />
-				<div class="sell-page-content">
+				<div className="sell-page-content">
 				</div>
 			</div>
 		);
