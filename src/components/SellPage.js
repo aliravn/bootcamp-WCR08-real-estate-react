@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Header from './Header';
+import SellPageContent from './SellPageContent';
 import "./SellPage.css"
 
 class SellPage extends Component {
@@ -9,8 +10,7 @@ class SellPage extends Component {
 		return (
 			<div id="sell-page-container">
 				<Header image={require("../img/header_forsale.jpg")} />
-				<div className="sell-page-content">
-				</div>
+				<SellPageContent />
 			</div>
 		);
 	} 
