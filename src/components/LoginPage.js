@@ -9,7 +9,7 @@ class LoginPage extends Component {
 		
 		return (
 			<div id="login-page-container">
-				<Header image={require("../img/header_flat.jpg")} />
+				<Header image={require("../img/header_key.jpg")} />
 				<div className="login-page-content">
 					<LoginForm />
 				</div>
