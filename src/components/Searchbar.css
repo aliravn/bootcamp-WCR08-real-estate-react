@@ -3,6 +3,7 @@
 	margin-top: -1vw;
 	padding: 2vw 0;
 	display: flex;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -10,7 +11,7 @@
 	margin: 0;
 	margin-left: 5%;
 	margin-bottom: 1%;
-	width: 90%;
+	width: 50%;
 	font-size: 3vw;
 	color: #ffffff;
 	font-weight: bold;
@@ -20,18 +21,28 @@
 }
 
 #searchbar select {
-	margin: 0 50% 1% 5%;
 	width: 30%;
-	font-size: 1.9vw;
-	padding: 0;
+	font-size: 1.7vw;
+	padding-left: .0;
+	margin: 0 0 1% 5%;
+	height: 3.8vw;
+	border: 1px solid black;
 }
 
 #searchbar input {
 	width: 40%;
 	margin-left: 5%;
 	margin-bottom: 1%;
+	height: 3vw;
+	padding-left: .5vw;
+	font-size: 1.7vw;
+	border: 1px solid black;
 }
 
 #search-button {
 	margin-left: 5%;
+	width: 10vw;
+	border: 1px solid black;
+	font-size: 2vw;	
+	text-align: center;
 }
