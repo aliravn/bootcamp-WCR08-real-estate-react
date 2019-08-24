@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "./SlideLayoutTemplate.css";
 
 class SlideLayoutTemplate extends Component {
 

@@ -1,0 +1,46 @@
+.buy-page-content {
+	width: 90%;
+	margin: 3vw auto;
+	border-radius: 3vw;
+	display: flex;
+	align-items: center;
+}
+
+.big-slide {
+	width: 30%;
+	height: 38vw;
+	background: lightgrey;
+	border-radius: 3vw;
+	margin-right: 2%;
+}
+
+.big-slide > p {
+	margin: 0;
+	text-align: center;
+	margin-top: 19vw;
+	transform: translateY(-50%);
+}
+
+.small-slide-container {
+	width: 68%;
+	height: 40vw;
+	border-radius: 3vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.small-slide {
+	width: 49%;
+	height: 18vw;
+	background: lightblue;
+	border-radius: 3vw;
+}
+
+.small-slide > p {
+	margin: 0;
+	text-align: center;
+	margin-top: 9vw;
+	transform: translateY(-50%);
+}
