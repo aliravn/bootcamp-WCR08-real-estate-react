@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import "./LoginPage.css";
 
-class LoginForm extends Component {
+class LoginCreateAccount extends Component {
 
 	render() {
 		
@@ -20,4 +20,4 @@ class LoginForm extends Component {
 	} 
 }
 
-export default LoginForm;
+export default LoginCreateAccount;

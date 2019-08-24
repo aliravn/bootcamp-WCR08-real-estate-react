@@ -1,6 +1,5 @@
-.login-container {
+.login-container, .create-account-container{
 	width: 40%;
-	height: 20vw;
 	padding: 3vw;
 	background-color: white;
 	display: flex;
@@ -9,11 +8,11 @@
 	margin-bottom: 5vw;
 }
 
-.login-container h2, .create-account-container h2 {
-	margin: 2vw auto;
+.login-container h2, .create-account-container h2{
+	margin-bottom: 2vw;
 }
 
-.login-container form {
+.login-container form, .create-account-container form {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -26,7 +25,7 @@ form > span {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 2vw;
+	margin-bottom: 1vw;
 }
 
 input {
@@ -35,17 +34,6 @@ input {
 	margin: 0;
 }
 
-.login-container button, .create-account-container button {
+.login-container button {
 	width: 100%
-}
-
-.create-account-container {
-	width: 40%;
-	height: 30vw;
-	padding: 3vw;
-	background-color: white;
-	display: flex;
-	flex-wrap: wrap;
-	font-size: 2vw;
-	margin-bottom: 5vw;
 }
