@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import ContactNavigation from "./ContactNavigation";
-import AboutPage from "./AboutPage";
 import ContactOffice from "./ContactOffice";
 import ContactIntroduction from "./ContactIntroduction"
 import NewsletterSubscription from "./NewsletterSubscription"

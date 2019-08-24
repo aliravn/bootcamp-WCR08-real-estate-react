@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter as Route, Switch, NavLink } from 'react-router-dom';
+import {BrowserRouter as Route, NavLink } from 'react-router-dom';
 import './ContactPage.css';
 
 class ContactNavigation extends Component {

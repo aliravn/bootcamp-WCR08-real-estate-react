@@ -5,7 +5,7 @@ class ContactIntroduction extends Component {
 
 	render() {
 		return (
-			<div class="contact-introduction-container">
+			<div className="contact-introduction-container">
 				<h2>Contacts</h2>
 				<p>We have offices in five cities and constantly growing.</p>
 				<p>Please select the office closest to you on the tab above.</p>
