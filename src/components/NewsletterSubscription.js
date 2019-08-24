@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import "./NewsletterSubscription.css"
 
-class ContactPage extends Component {
+class NewsletterSubscrition extends Component {
 	render() {
 		return (
 			<div id="newsletter-container">
@@ -12,4 +13,4 @@ class ContactPage extends Component {
 	}
 }
 
-export default ContactPage;
+export default NewsletterSubscrition;
