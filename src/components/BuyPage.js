@@ -3,7 +3,7 @@ import Header from './Header';
 import SlideLayoutTemplate from "./SlideLayoutTemplate"
 import BuyPageGuide from "./BuyPageGuide"
 import OpenHouseInfo from "./OpenHouseInfo"
-import "./BuyPage.css";
+
 
 class BuyPage extends Component {
 

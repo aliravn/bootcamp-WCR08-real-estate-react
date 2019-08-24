@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "./BuyPageGuide.css"
 
 class BuyPageGuide extends Component {
 

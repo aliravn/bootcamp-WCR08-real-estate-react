@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import "./OpenHouseInfo.css";
 class OpenHouseInfo extends Component {
 
 	render() {
