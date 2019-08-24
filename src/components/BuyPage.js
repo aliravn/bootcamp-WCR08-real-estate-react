@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Header from './Header';
 import SlideLayoutTemplate from "./SlideLayoutTemplate"
 import BuyPageGuide from "./BuyPageGuide"
+import OpenHouseInfo from "./OpenHouseInfo"
 import "./BuyPage.css";
 
 class BuyPage extends Component {
@@ -13,6 +14,7 @@ class BuyPage extends Component {
 				<Header image={require("../img/header_flat.jpg")} />
 				<SlideLayoutTemplate />
 				<BuyPageGuide />
+				<OpenHouseInfo />
 			</div>
 		);
 	} 
