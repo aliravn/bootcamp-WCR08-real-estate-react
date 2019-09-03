@@ -24,11 +24,11 @@ class Footer extends Component {
 						<NavigationLink path="/" title="-" className="footer-nav-link"/>	
 					</div>
 					<div className="footer-nav-box">
-						<NavigationLink path="/contact" title="New York" className="footer-nav-link"/>
-						<NavigationLink path="/contact" title="Los Angeles" className="footer-nav-link"/>
-						<NavigationLink path="/contact" title="Chicago" className="footer-nav-link"/>
-						<NavigationLink path="/contact" title="Miami" className="footer-nav-link"/>
-						<NavigationLink path="contact" title="New Orleans" className="footer-nav-link"/>	
+						<NavigationLink path="/contact/ny" title="New York" className="footer-nav-link"/>
+						<NavigationLink path="/contact/la" title="Los Angeles" className="footer-nav-link"/>
+						<NavigationLink path="/contact/ch" title="Chicago" className="footer-nav-link"/>
+						<NavigationLink path="/contact/mi" title="Miami" className="footer-nav-link"/>
+						<NavigationLink path="contact/no" title="New Orleans" className="footer-nav-link"/>	
 					</div>
 					<div className="footer-nav-box">
 						<div className="footer-text">
